@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 on:
   push:
     paths-ignore:
-    - .github
+    - .github/**
     branches:
     - main
   pull_request:
