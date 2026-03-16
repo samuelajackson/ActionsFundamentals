@@ -18,9 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo event
-      run: |
-        echo ${{ github.event_name }}
-        echo ${{ github.ref_name }}
-        ls
+        run: |
+          echo ${{ github.event_name }}
+          echo ${{ github.ref_name }}
+          ls
       
   
